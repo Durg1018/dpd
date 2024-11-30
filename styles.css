@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fbfbfb;
+}
+header, footer {
+    background-color: #2338fe;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.cm 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+header {
+    top: 0;
+}
+footer {
+    bottom: 0;
+}
+main {
+    padding: 70px 20px 50px;
+    text-align: center;
+}
+.search {
+    margin-bottom: 20px;
+}
+.search input {
+    padding: 15px;
+    width: 80%;
+    max-width: 400px;
+}
+.search button {
+    padding: 15px;
+}
+#currentWeather, #forecastWeather {
+    margin-top: 20px;
+}
+.weather-card {
+    background-color: rgb(170, 221, 254);
+    margin:5px 10px;
+    padding:10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
